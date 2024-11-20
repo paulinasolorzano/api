@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo de JSON desde GitHub</title>
+</head>
+<body>
+    <h1>Lista de Usuarios</h1>
+    <ul id="user-list"></ul>
+
+    <script>
+        const jsonUrl = 'https://paulinasolorzano.github.io/api/data.json'; // Cambia esta URL si es diferente
+    
+        fetch(jsonUrl)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json(); // Convierte la respuesta en JSON
+            })
+            .then(data => {
+                console.log('Datos cargados:', data);
+            })
+            .catch(error => {
+                console.error('Error al cargar el JSON:', error);
+            });
+    </script>
+</body>
+</html>
