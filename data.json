@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "id": 1,
+    "nombre": "el tiempo entre costuras",
+    "categoria": "drama",
+    "descripcion": "vasado en una historia del libro de claudia dueñas",
+    "fecha": "2024-11-11T06:00:00.000Z"
+  }
+]
