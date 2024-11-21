@@ -7,6 +7,13 @@
     "fecha": "2024-11-19T06:00:00.000Z"
   },
   {
+    "id": 2,
+    "nombre": "ficción",
+    "categoria": "ficción",
+    "descripcion": "ficción",
+    "fecha": "2024-11-11T06:00:00.000Z"
+  },
+  {
     "id": 3,
     "nombre": "No mires atrás",
     "categoria": "Ficción",
